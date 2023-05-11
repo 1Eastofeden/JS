@@ -1,0 +1,58 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input-group-text {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    left: 145px;
+    top: 105px;
+}
+
+input#width {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+input#height {
+    position: relative;
+}
+
+input#color {
+    position: relative;
+    margin-top: 10px;
+}
+
+.btn-primar {
+    position: relative;
+    left: 145px;
+    top: 105px;
+    width: 206px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(172, 172, 172);
+}
+
+.btn-success {
+    position: relative;
+    left: 145px;
+    top: 105px;
+    width: 206px;
+    height: 40px;
+    margin-top: 10px;
+}

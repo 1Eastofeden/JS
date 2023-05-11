@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h1-1 {
+    position: relative;
+    margin-bottom: 10%;
+    margin-left: 20%;
+
+}
+
+.h1-2 {
+    position: relative;
+    margin-bottom: 15%;
+    right: 3%;
+}
+
+.h3-1 {
+    position: relative;
+    margin-left: 45%;
+    margin-bottom: 10%;
+}
+
+.btn {
+    position: relative;
+    left: 23.8%;
+}
+

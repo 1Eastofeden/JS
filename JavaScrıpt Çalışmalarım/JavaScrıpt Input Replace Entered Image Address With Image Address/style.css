@@ -1,0 +1,25 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.span-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    background-color: transparent;
+}
+
+image {
+    position: relative;
+}
+
+button {
+    background-color: transparent;
+    position: relative;
+    width: 206px;
+}
