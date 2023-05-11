@@ -1,0 +1,49 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.span-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inp-1 {
+    position: relative;
+    bottom: 50px;
+    background-color: transparent;
+}
+
+.inp-2 {
+    position: relative;
+    bottom: 40px;
+    background-color: transparent;
+}
+
+.inp-3 {
+    position: relative;
+    bottom: 30px;
+    background-color: transparent;
+}
+
+.btn-1 {
+    position: relative;
+    bottom: 20px;
+    width: 206px;
+}
+
+a {
+    position: relative;
+    top: 20px;
+    right: 130px;
+    color: grey;    
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+}

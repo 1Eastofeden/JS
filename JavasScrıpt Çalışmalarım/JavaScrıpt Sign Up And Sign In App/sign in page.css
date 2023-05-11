@@ -1,0 +1,28 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.span-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inp-1 {
+    position: relative;
+    background-color: transparent;
+    bottom: 10px;
+}
+
+.inp-2 {
+    background-color: transparent;
+}
+
+button {
+    position: relative;
+    width: 206px;
+    top: 10px;
+}
