@@ -1,0 +1,25 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-group-text {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    text-align: left;
+}
+
+.btn-success {
+    position: relative;
+    width: 206px;
+    text-align: right;
+}
