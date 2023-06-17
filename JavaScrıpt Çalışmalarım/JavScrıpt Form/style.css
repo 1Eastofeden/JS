@@ -1,0 +1,55 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input#name {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    text-align: left;
+}
+
+input#surname {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    text-align: left;
+}
+
+input#email {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    text-align: left;
+}
+
+input#password {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    text-align: left;
+}
+
+button#senbutton {
+    position: relative;
+    width: 206px;
+    text-align: right;
+}
+
+input#age {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    text-align: left;
+}
