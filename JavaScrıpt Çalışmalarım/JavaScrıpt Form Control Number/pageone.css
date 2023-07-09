@@ -1,0 +1,207 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #2fb171;
+    font-family: 'Raleway', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 600px;
+    height: 700px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.img-1 {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    transform: rotate(365deg);
+    bottom: 95px;
+    left: 40px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span {
+    position: relative;
+    bottom: 165px;
+}
+
+input#name {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    border-color: black;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    top: 50px;
+}
+
+
+input#name::after {
+    background-color: transparent;
+    outline: none;
+}
+
+input#surname::after {
+    background-color: transparent;
+    outline: none;
+}
+
+input#username::after {
+    background-color: transparent;
+    outline: none;
+}
+
+input#email::after {
+    background-color: transparent;
+    outline: none;
+}
+
+input#telephone::after {
+    background-color: transparent;
+    outline: none;
+}
+
+input#passsword::after {
+    background-color: transparent;
+    outline: none;
+}
+
+input#passwordagain::after {
+    background-color: transparent;
+    outline: none;
+}
+
+input#surname {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    border-color: black;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    top: 14px;
+    left: 298px; 
+}
+
+input#username {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    border-color: black;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    width: 500px;
+    bottom: 110px;
+}
+
+input#email {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    border-color: black;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    width: 500px;
+    bottom: 70px;
+}
+
+input#telephone {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    border-color: black;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    width: 500px;
+    bottom: 30px;
+}
+
+input#password {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    border-color: black;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    width: 500px;
+    top: 10px;
+}
+
+input#passwordagain {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    border-color: black;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    width: 500px;
+    top: 50px;
+}
+
+.btn-success { 
+    position: relative;
+    width: 305px;
+    text-align: right;
+    top: 170px;
+    left: 200px;
+    background-color: #2fb171;
+    border-color: #2fb171;
+    color: black;
+}
+
+.btn-success:hover {
+    color: white;
+    background-color: #2e9662;
+    border-color: #2e9662;
+    box-shadow: none;
+}
+
+.img-2 {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    display: flex;
+    top: 347px;
+}
