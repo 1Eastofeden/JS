@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #6b6cff;
+    font-family: 'Raleway', sans-serif;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 700px;
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #bbe3fc;
+}
+
+span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    width: 550px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input#name {
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0; 
+    transition: border-color 0.3s ease; 
+}
+
+input#name:focus {
+    border-color: #6b6cff;
+}
+
+
+input#surname {
+    outline: none;
+    position: relative;
+    background-color: transparent;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0; 
+    transition: border-color 0.3s ease; 
+}
+
+input#surname:focus {
+    border-color: #6b6cff;
+}
+
+input#email {
+    outline: none;
+    position: relative;
+    background-color: transparent;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0; 
+    transition: border-color 0.3s ease; 
+}
+
+input#email:focus {
+    border-color: #6b6cff;
+}
+
+input#telephone {
+    outline: none;
+    position: relative;
+    background-color: transparent;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0; 
+    transition: border-color 0.3s ease; 
+}
+
+input#telephone:focus {
+    border-color: #6b6cff;
+}
+
+input#age {
+    outline: none;
+    position: relative;
+    background-color: transparent;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0; 
+    transition: border-color 0.3s ease; 
+}
+
+input#age:focus {
+    border-color: #6b6cff;
+}
+
+i#male {
+    position: relative;
+    font-size: 30px;
+    left: 20px;
+    top: 10px;
+}
+
+i#male:hover {
+    color: #6b6cff;
+    transition: color 0.3s ease; 
+    cursor: pointer;
+}
+
+i#famale {
+    position: relative;
+    font-size: 30px;
+    left: 59px;
+    top: 10px;
+}
+
+i#famale:hover {
+    color: #6b6cff;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+i#other {
+    position: relative;
+    font-size: 30px;
+    left: 90px;
+    top: 10px;
+}
+
+i#other:hover {
+    color: #6b6cff;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-success {
+    position: relative;
+    top: 30px;
+    display: flex;
+    width: 206px;
+    background-color: #6b6cff;
+    border-color: #6b6cff;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-success:hover {
+    background-color: #5d5ddc;
+    border-color: #5d5ddc;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-success::after {
+    background-color: #6b6cff;
+    border-color: #6b6cff;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-success:focus {
+    background-color: #6b6cff;
+    border-color: #6b6cff;
+    outline: none;
+    box-shadow: none;
+}
+
+::placeholder {
+    color: grey;
+}
